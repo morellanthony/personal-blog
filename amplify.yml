@@ -3,8 +3,8 @@ env:
   variables:
     # Application versions
     DART_SASS_VERSION: 1.81.0
-    GO_VERSION: 1.23.3
-    HUGO_VERSION: 0.139.3
+    GO_VERSION: 1.23.4
+    HUGO_VERSION: 0.139.4
     # Time zone
     TZ: America/New_York
     # Cache
