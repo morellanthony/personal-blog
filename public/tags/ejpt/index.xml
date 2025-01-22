@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EJPT on Tony&#39;s Cybersecurity Blog</title>
+    <link>http://localhost:1313/tags/ejpt/</link>
+    <description>Recent content in EJPT on Tony&#39;s Cybersecurity Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Anthony Morell</copyright>
+    <lastBuildDate>Fri, 14 Oct 2022 02:01:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ejpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eJPT by INE/eLearnSecurity</title>
+      <link>http://localhost:1313/posts/ejpt/</link>
+      <pubDate>Fri, 14 Oct 2022 02:01:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/ejpt/</guid>
+      <description>&lt;p&gt;eJPT by eLearnSecurity&lt;/p&gt;&#xA;&lt;p&gt;​&lt;a href=&#34;https://verified.elearnsecurity.com/certificates/c04ac59f-d6eb-4e57-ae91-149f23ee8b28&#34;&gt;​I am eJPT certified!&lt;/a&gt;&#xA;​&lt;/p&gt;&#xA;&lt;h1 id=&#34;review-elearnsecurity-junior-penetration-tester-ejpt-certification&#34;&gt;Review: eLearnSecurity Junior Penetration Tester (eJPT) Certification&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;strong&gt;eJPT certification&lt;/strong&gt; was my first-ever attempt at a cybersecurity certification. After completing a few more certifications and reflecting on the experiences of others, I can confidently say that the eJPT remains one of my favorite certifications to date.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-training&#34;&gt;The Training&lt;/h2&gt;&#xA;&lt;p&gt;INE (formerly eLearnSecurity) provides the training material for the eJPT. While the training comes at a cost, it is thorough and more than sufficient to prepare for the exam. The course covers a wide range of fundamental topics, making it highly accessible for beginners. However, I strongly recommend taking detailed notes throughout the training, as the material does not emphasize note-taking methods—a skill that can significantly aid both your study process and exam performance.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EWPT on Tony&#39;s Cybersecurity Blog</title>
+    <link>http://localhost:1313/tags/ewpt/</link>
+    <description>Recent content in EWPT on Tony&#39;s Cybersecurity Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Anthony Morell</copyright>
+    <lastBuildDate>Sun, 21 May 2023 02:01:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ewpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eWPT by INE/eLearnSecurity</title>
+      <link>http://localhost:1313/posts/ewpt/</link>
+      <pubDate>Sun, 21 May 2023 02:01:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/ewpt/</guid>
+      <description>&lt;p&gt;eWPT by eLearnSecurity&lt;/p&gt;&#xA;&lt;p&gt;​&lt;a href=&#34;https://verified.elearnsecurity.com/certificates/db254803-1426-4b84-926f-72cb19b2422a&#34;&gt;​I am eWPT certified!&lt;/a&gt;&#xA;​&lt;/p&gt;&#xA;&lt;h1 id=&#34;review-elearnsecurity-web-application-penetration-tester-ewpt-certification&#34;&gt;Review: eLearnSecurity Web Application Penetration Tester (eWPT) Certification&lt;/h1&gt;&#xA;&lt;p&gt;Over the past few months, I’ve been working to deepen my understanding of web security while completing my master’s in cybersecurity. I wanted a certification that would help me strengthen my skills without adding too much to my already demanding workload. The &lt;strong&gt;eWPT&lt;/strong&gt; seemed like a good fit for that purpose.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-training&#34;&gt;The Training&lt;/h2&gt;&#xA;&lt;p&gt;The training for the eWPT aligned well with the exam material. While I found the training content to be fairly basic, I appreciated its focus on reinforcing foundational concepts. Building strong fundamentals is a priority for me as I prepare to tackle more advanced certifications in the near future.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

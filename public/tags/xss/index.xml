@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XSS on Tony&#39;s Cybersecurity Blog</title>
+    <link>http://localhost:1313/tags/xss/</link>
+    <description>Recent content in XSS on Tony&#39;s Cybersecurity Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Anthony Morell</copyright>
+    <lastBuildDate>Wed, 22 Jan 2025 02:01:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/xss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2024-57041: Stored XSS in NodeBB</title>
+      <link>http://localhost:1313/posts/cve-2024-57041/</link>
+      <pubDate>Wed, 22 Jan 2025 02:01:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/cve-2024-57041/</guid>
+      <description>&lt;h1 id=&#34;stored-xss-exploit&#34;&gt;Stored XSS Exploit&lt;/h1&gt;&#xA;&lt;p&gt;This is an exciting finding for me because it was not only my first CVE, but my first paid bounty! I was able to kill two birds with one stone on this exploit.&lt;/p&gt;&#xA;&lt;h1 id=&#34;steps&#34;&gt;Steps&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Create an admin and another attacker user.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The attacker navigates to their profile &amp;lsquo;about me&amp;rsquo; section and can post script tags into their &amp;lsquo;about me&amp;rsquo;.&#xA;&lt;img src=&#34;http://localhost:1313/images/Image-1.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The attacker can inject this payload: &lt;code&gt;&amp;lt;script&amp;gt;alert(&amp;quot;NodeBB Hacked!&amp;quot;)&amp;lt;/script&amp;gt;&lt;/code&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/Image-2.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/Image-3.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

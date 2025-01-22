@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certs Copies on Tony&#39;s Cybersecurity Blog</title>
+    <link>http://localhost:1313/certs-copy/</link>
+    <description>Recent content in Certs Copies on Tony&#39;s Cybersecurity Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Anthony Morell</copyright>
+    <lastBuildDate>Tue, 22 Aug 2023 02:01:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/certs-copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hack The Box Certified Bug Bounty Hunter (HTB CBBH)</title>
+      <link>http://localhost:1313/certs-copy/post-1/</link>
+      <pubDate>Tue, 22 Aug 2023 02:01:58 +0530</pubDate>
+      <guid>http://localhost:1313/certs-copy/post-1/</guid>
+      <description>&lt;p&gt;Certified Bug Bounty Hunter by Hack The Box&lt;/p&gt;&#xA;&lt;p&gt;​&lt;a href=&#34;https://www.credly.com/badges/904e5947-ab72-4d9b-bb0f-0ca6ec1df3f7/public_url&#34;&gt;​I am a HTB CBBH!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;review&#34;&gt;Review&lt;/h3&gt;&#xA;&lt;p&gt;A great certification. I would highly recommend the training and exam.&lt;/p&gt;&#xA;&lt;h4 id=&#34;the-training&#34;&gt;The Training&lt;/h4&gt;&#xA;&lt;p&gt;The training for this exam felt amazing at times. I felt like content that I had learned in this path had given me such an advantage in application security. However, there were some modules within the training path that seemed irrelevant and confusing. This doesn&amp;rsquo;t happen often, thankfully.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

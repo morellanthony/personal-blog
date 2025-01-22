@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PJMT on Tony&#39;s Cybersecurity Blog</title>
+    <link>http://localhost:1313/tags/pjmt/</link>
+    <description>Recent content in PJMT on Tony&#39;s Cybersecurity Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Anthony Morell</copyright>
+    <lastBuildDate>Tue, 14 Nov 2023 02:01:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pjmt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practical Junior Mobile Tester by TCM Security</title>
+      <link>http://localhost:1313/posts/pjmt/</link>
+      <pubDate>Tue, 14 Nov 2023 02:01:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/pjmt/</guid>
+      <description>&lt;p&gt;Certified Bug Bounty Hunter by Hack The Box&lt;/p&gt;&#xA;&lt;p&gt;​&lt;a href=&#34;https://www.credential.net/11b2cfca-2bf6-4b95-b814-ecb702bbdc5c&#34;&gt;I am a certified PJMT!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;review-tcm-security-practical-mobile-penetration-tester-pmpt-certification&#34;&gt;Review: TCM Security Practical Mobile Penetration Tester (PMPT) Certification&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;strong&gt;PMPT certification&lt;/strong&gt; is a great option for those new to mobile penetration testing. I highly recommend both the training and the exam. However, for individuals with prior experience in mobile testing, this certification may not provide much of a challenge.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-training&#34;&gt;The Training&lt;/h2&gt;&#xA;&lt;p&gt;The training for this certification aligns perfectly with the exam material. There are no unexpected surprises, which makes it an excellent resource for beginners. I particularly enjoyed the training, as it introduced me to the fundamentals of hacking mobile applications in a clear and accessible way.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

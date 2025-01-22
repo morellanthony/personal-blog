@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CBBH on Tony&#39;s Cybersecurity Blog</title>
+    <link>http://localhost:1313/tags/cbbh/</link>
+    <description>Recent content in CBBH on Tony&#39;s Cybersecurity Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Anthony Morell</copyright>
+    <lastBuildDate>Tue, 22 Aug 2023 02:01:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cbbh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hack The Box Certified Bug Bounty Hunter (HTB CBBH)</title>
+      <link>http://localhost:1313/posts/cbbh/</link>
+      <pubDate>Tue, 22 Aug 2023 02:01:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/cbbh/</guid>
+      <description>&lt;p&gt;Certified Bug Bounty Hunter by Hack The Box&lt;/p&gt;&#xA;&lt;p&gt;​&lt;a href=&#34;https://www.credly.com/badges/904e5947-ab72-4d9b-bb0f-0ca6ec1df3f7/public_url&#34;&gt;​I am a HTB CBBH!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;review-hack-the-box-certified-bug-bounty-hunter-cbbh-certification&#34;&gt;Review: Hack The Box Certified Bug Bounty Hunter (CBBH) Certification&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;strong&gt;CBBH certification&lt;/strong&gt; is a challenging yet rewarding experience. It offers significant value for those looking to enhance their skills in application security. I would highly recommend both the training and the exam for those serious about advancing in this area.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-training&#34;&gt;The Training&lt;/h2&gt;&#xA;&lt;p&gt;The training for the CBBH certification was exceptional in many aspects. The content provided a deep understanding of application security and gave me a significant advantage in identifying vulnerabilities. However, not all modules were equally relevant—some felt confusing or disconnected from the core objectives of the exam. Thankfully, these instances were rare, and the overall quality of the training was excellent.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
