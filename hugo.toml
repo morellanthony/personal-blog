@@ -1,4 +1,6 @@
-baseURL = "https://master.d3d09dtgn3qke7.amplifyapp.com/"
+baseURL = "/"
+uglyURLs = true
+relativeURLs = true
 languageCode = "en-us"
 title = "Tony's Cybersecurity Blog"
 theme="archie"
