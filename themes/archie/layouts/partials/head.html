@@ -9,5 +9,6 @@
 		{{ if eq .Site.Params.mode "toggle" -}}
         | <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
 		<script src="{{ absURL "js/themetoggle.js" }}"></script>
+		{{ end }}
 	</nav>
 </header>

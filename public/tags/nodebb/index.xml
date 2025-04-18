@@ -7,14 +7,28 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Anthony Morell</copyright>
-    <lastBuildDate>Wed, 22 Jan 2025 02:01:58 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 02:01:58 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/nodebb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2025-29513: Stored XSS in NodeBB Admin API token generator</title>
+      <link>http://localhost:1313/posts/cve-2025-29513/</link>
+      <pubDate>Tue, 15 Apr 2025 02:01:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/cve-2025-29513/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;CVE-2025-29513 is a stored cross-site scripting (XSS) vulnerability in the Admin API token generator functionality of NodeBB version 4.0.4 and below. This flaw allows an attacker with administrative access to inject arbitrary JavaScript through crafted input in the User ID (uid) field when generating new API tokens.&lt;/p&gt;&#xA;&lt;p&gt;Although the frontend input form enforces numeric validation, an attacker can bypass these restrictions by using tools like cURL or a web proxy to submit values such as -0 or malformed numeric strings (e.g., -0000.00). These inputs are not properly validated server-side and are reflected in the rendered HTML of the admin panel, leading to persistent script injection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CVE-2025-29512: Stored XSS in the blacklist IP functionality</title>
+      <link>http://localhost:1313/posts/cve-2025-29512/</link>
+      <pubDate>Tue, 15 Apr 2025 02:01:57 +0530</pubDate>
+      <guid>http://localhost:1313/posts/cve-2025-29512/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;CVE-2025-29512 is a stored cross-site scripting (XSS) vulnerability affecting NodeBB version 4.0.4 and below. The issue resides in the IP blacklist administration panel &lt;code&gt;/ip-blacklist&lt;/code&gt;, where input provided to the &amp;ldquo;rules&amp;rdquo; &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt; is improperly sanitized. When a moderator inputs malicious HTML or JavaScript, the payload is stored and executed upon subsequent visits to the page.&lt;/p&gt;&#xA;&lt;p&gt;This vulnerability allows moderators to execute arbitrary JavaScript in the context of other privileged users, leading to potential session hijacking, defacement, or unauthorized administrative actions. Since the injected script persists across sessions and there is no built-in mechanism to sanitize or remove the stored payload from the UI, exploitation can lead to persistent denial of access to the page or further abuse.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CVE-2024-57041: Stored XSS in NodeBB</title>
       <link>http://localhost:1313/posts/cve-2024-57041/</link>
       <pubDate>Wed, 22 Jan 2025 02:01:58 +0530</pubDate>
       <guid>http://localhost:1313/posts/cve-2024-57041/</guid>
-      <description>&lt;h1 id=&#34;stored-xss-exploit&#34;&gt;Stored XSS Exploit&lt;/h1&gt;&#xA;&lt;p&gt;This is an exciting finding for me because it was not only my first CVE, but my first paid bounty! I was able to kill two birds with one stone on this exploit.&lt;/p&gt;&#xA;&lt;h1 id=&#34;steps&#34;&gt;Steps&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Create an admin and another attacker user.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The attacker navigates to their profile &amp;lsquo;about me&amp;rsquo; section and can post script tags into their &amp;lsquo;about me&amp;rsquo;.&#xA;&lt;img src=&#34;http://localhost:1313/images/Image-1.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The attacker can inject this payload: &lt;code&gt;&amp;lt;script&amp;gt;alert(&amp;quot;NodeBB Hacked!&amp;quot;)&amp;lt;/script&amp;gt;&lt;/code&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/Image-2.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/Image-3.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;stored-xss-exploit&#34;&gt;Stored XSS Exploit&lt;/h1&gt;&#xA;&lt;p&gt;This discovery is particularly exciting as it marks a significant professional milestone: my first &lt;strong&gt;CVE&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;h1 id=&#34;steps&#34;&gt;Steps&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Create an admin and another attacker user.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The attacker navigates to their profile &amp;lsquo;about me&amp;rsquo; section and can post script tags into their &amp;lsquo;about me&amp;rsquo;.&#xA;&lt;img src=&#34;http://localhost:1313/images/CVE-2024-57041/Image-1.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The attacker can inject this payload: &lt;code&gt;&amp;lt;script&amp;gt;alert(&amp;quot;NodeBB Hacked!&amp;quot;)&amp;lt;/script&amp;gt;&lt;/code&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/CVE-2024-57041/Image-2.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/CVE-2024-57041/Image-3.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Once posted, the page will not yet reflect any of the stored script tags.&#xA;&lt;img src=&#34;http://localhost:1313/images/CVE-2024-57041/Image-4.png&#34; alt=&#34;XSS&#34; title=&#34;XSS&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;As an administrator, log into the application and visit the attacker users home page.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

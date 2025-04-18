@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://TonySec.com/"
 languageCode = "en-us"
 title = "Tony's Cybersecurity Blog"
 theme="archie"
@@ -63,5 +63,3 @@ target = 'static'
 [[module.mounts]]
 source = 'images'
 target = 'static/images'
-
-googleAnalytics = "G-6JG2YSD7Z7"
