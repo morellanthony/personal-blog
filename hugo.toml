@@ -65,4 +65,4 @@ source = 'images'
 target = 'static/images'
 
 googleAnalytics = "G-6JG2YSD7Z7"
-HUGO_ENV=production hugo
+# HUGO_ENV=production hugo
