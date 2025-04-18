@@ -63,3 +63,6 @@ target = 'static'
 [[module.mounts]]
 source = 'images'
 target = 'static/images'
+
+googleAnalytics = "G-JMVBDXXFTX"
+HUGO_ENV=production hugo
