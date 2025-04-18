@@ -64,9 +64,4 @@ target = 'static'
 source = 'images'
 target = 'static/images'
 
-# googleAnalytics = "G-6JG2YSD7Z7"
-# HUGO_ENV=production hugo
-
-[services]
-  [services.googleAnalytics]
-    id = 'G-6JG2YSD7Z7'
+googleAnalytics = "G-6JG2YSD7Z7"
