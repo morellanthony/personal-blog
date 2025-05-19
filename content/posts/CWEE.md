@@ -38,4 +38,4 @@ The CWEE exam is a nightmare-level exam. To be transparent, at the time of writi
 
 ## Overall
 
-I am beyond thrilled that I was able to pass this exam the CWEE certification. I have about three years in application security, and less than a year of real web pentests under my belt. Keep this in perspective as you journey along, and good luck to those who take it. Do not feel ashamed if you fail this exam, as even finishing out the path deserves a great deal of respect.
+I am beyond thrilled that I was able to pass this exam the CWEE certification. This is a very rewarding path and exam to take that has many challenges. Do not feel ashamed if you fail this exam, as even finishing out the path deserves a great deal of respect. 
