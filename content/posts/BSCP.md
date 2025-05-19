@@ -13,6 +13,8 @@ Certified Bug Bounty Hunter by Hack The Box
 
 The **BSCP certification** is a fast-paced four-hour exam that requires a moderate understanding of web application exploits and how to leverage them to showcase real security impact if exploited.
 
+---
+
 ## The Training
 
 I cannot praise this training enough. Not only is it good, but it’s free. It took me roughly a couple of months to walk through all of the paths and training in the academy. If I were to nit-pick, sometimes the labs would bug out and not register correctly for something like an XSS or CSRF lab. Other times I felt like the lab explanations were not verbose enough on topics... but they provide answers, and you can always combine that with research outside of the path, which is expected anyway.
@@ -21,9 +23,13 @@ When practicing with the mystery labs, I got to a point where I had done about f
 
 I would also highly suggest taking the practice exams. Unfortunately, both practice exams were nearly the same, but they still provided value when it came exam time. Even if you have taken the practice exam, walk through it a couple of times to get a good flow, as it mimics the exam pretty well.
 
+---
+
 ## The Exam
 
 The exam is four hours and you have to have a camera and recording software on your computer while taking your exam. So prepare yourself for that before you want to test, because it's more annoying to deal with than I thought during setup, though it was not a bad experience overall. Have your notes fully prepared. I found some note-taking exam templates on YouTube and GitHub that were very helpful. I would strongly suggest doing your due diligence in setting up your note-taking system, as it helps you with exploiting the applications.
+
+---
 
 ## Overall
 
