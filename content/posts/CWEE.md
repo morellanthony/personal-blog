@@ -11,7 +11,7 @@ Certified Web Exploitation Expert by Hack The Box
 
 # Review: Hack The Box Certified Web Exploitation Expert (CWEE) Certification
 
-The **CWEE certification** is an contains an extremely challenging path and exam. I hope this review helps readers set better expectations for themselves and avoid any pitfalls I made while taking the exam.
+The **CWEE certification** is an extremely challenging path and exam. I hope this review helps readers set better expectations for themselves and avoid any pitfalls I made while taking the exam.
 
 ---
 
